@@ -97,7 +97,8 @@ body {
     list-style: none;
 }
 .navbar__nav-container a {
-    text-decoration: none;   
+    text-decoration: none;
+    color: var(--DesaturatedBlue);   
 }
 .navbar__nav-container a:hover {
     color: var(--BrightBlue);
@@ -124,6 +125,7 @@ body {
     text-align: center;
     font-size: 0.95rem;
     margin-bottom: 1.87rem;
+    color: var(--DesaturatedBlue);
 }
 .header-content__form {
     display: flex;
@@ -157,7 +159,7 @@ body {
 
 .details {
     border: 1px solid red;
-    padding: 0 1.5rem 8rem;
+    padding: 0 1rem 4rem;
 }
 .details__illustration {
     width: 100%;
@@ -166,25 +168,26 @@ body {
 .details-content {
     border: 1px solid red;
     text-align: center;
+    padding-bottom: 2rem;
 }
 .details-content__title {
     text-align: center;
     font-family: var(--Railway);
     font-weight: 700;
     font-size: 1rem;
-    line-height: 2rem;
     margin-bottom: 1.2rem;
     color: var(--VeryDarkBlue);
 }
 .details-content__paragraph {
     text-align: start;
     color: var(--DesaturatedBlue);
-    font-size: 0.84rem;
+    font-size: 0.9rem;
     margin-right: 1rem;
     font-weight: 400;
 }
 .paragraph1 {
     margin-bottom: 1rem;
+    margin-right: 0.7rem;
 }
 .paragraph2 {
     margin-bottom: 2rem;
@@ -195,8 +198,138 @@ body {
     text-decoration: none;
     border-bottom: 1.3px solid var(--ModerateCyan);
     padding-bottom: 0.3rem;
-
 }
 .card {
+    box-shadow: 3px 3px 36px -22px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    width: 84%;
+    margin: auto;
     margin-top: 2rem;
+    padding-bottom: 1.4rem;
 }
+.card__quotes {
+    margin-right: 14rem;
+    margin-top: 1rem;
+}
+.card__text {
+    text-align: start;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    font-size: 0.68rem;
+    font-weight: 400;
+    color: var(--DesaturatedBlue);
+}
+.avatar-container {
+    display: flex;
+}
+.avatar-container__image {
+    border-radius: 14rem;
+    width: 12%;
+    height: 12%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.avatar-container__name {
+    text-align: start;
+    margin-left: 0.4rem;
+    margin-top: 1.1rem;
+    font-family: var(--Railway);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.avatar-container__profile {
+    text-align: start;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    font-weight: 400;
+    font-size: 0.5rem;
+}
+.early-access {
+    border: 1px solid orange;
+    text-align: center;
+    padding: 4rem 1rem 5rem;
+    background-color: var(--DesaturatedBlue);
+}
+.early-access__title {
+    margin-bottom: 1.4rem;
+    font-size: 1.3rem;
+    color: var(--LightGrayishBlue);
+}
+.early-access__description {
+    color: var(--LightGrayishBlue);
+    font-size: 0.96erem;
+    margin: 0 0.5rem 1.3rem;
+}
+
+.early-access__form {
+    display: flex;
+    flex-direction: column;
+    height: 6.25rem;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.early-access__form input {
+    height: 2.5rem;
+    border-radius: 0.25rem;
+}
+.early-access__form input[type="text"]{
+    padding-left: 0.93rem;
+    border: 1px solid var(--LightGray);
+}
+.early-access__form input[type="text"]::placeholder {
+    color: var(--LightGray);
+}
+.early-access__submit {
+    background-color: var(--BrightBlue);
+    color: var(--LightGrayishBlue);
+    font-family: var(--Railway);
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: none;   
+}
+.early-access__submit:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+.footer {
+    background-color: var(--VeryDarkBlue);
+    padding: 4rem 2rem 3rem;
+}
+.footer a {
+    color: var(--LightGray);
+    text-decoration: none;
+}
+.footer__logo {
+    width: 60%;
+    margin-bottom: 2rem;
+}
+.footer__phone-container, .footer__email-container {
+    margin-bottom: 1.6rem;
+}
+.footer__phone-container img, .footer__email-container img {
+    padding-right: 1rem;
+}
+.footer__email-container {
+    margin-bottom: 3.5rem;
+}
+.footer__about-us {
+    margin-bottom: 3.5rem;
+}
+.footer__about-us li, .footer__contact-us li {
+    margin-bottom: 1.5rem;
+}
+.footer__contact-us {
+    margin-bottom: 4rem;
+}
+
+.social-media-container {
+    text-align: center;
+}
+.social-media-container .fb, .x, .insta {
+    margin-right: 0.5rem;
+}
+
+
+
