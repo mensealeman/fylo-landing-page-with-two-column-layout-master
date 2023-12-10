@@ -25,6 +25,9 @@
 
 }
 
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
 *, *:before, *:after {
     font-size: 62.5%;
     box-sizing: inherit;
@@ -35,5 +38,16 @@ html {
 body {
     font-size: 16px;
     font-family: var(--OpenSans);
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+/* ---- header ---- */
+
+header {
+    
 }
 

@@ -12,91 +12,102 @@
 </head>
 <body>
   
-  <header>
-    <nav class="nav1">
-      <a href="#">Features</a>
-      <a href="#">Team</a>
-      <a href="#">Sign In</a>
-    </nav>
-  </header>
+  <nav class="nav1">
+    <img class="navBar-logo" src="./images/logo.svg" alt="logo">
+    <a href="#">Features</a>
+    <a href="#">Team</a>
+    <a href="#">Sign In</a>
+  </nav>
+
+  <main class="main-container">
+
+  <header class="header">
+
+    <img class="header__illustration" src="./images/illustration-1.svg" alt="illustration-1">
+
+    <div class="header-content">
+      <h1 class="header-content__title">All your files in one secure location, accessible anywhere.</h1> 
+      
+      <p class="header-content__description">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+      
+      <form class="header-content__form" action="#">
+        <input type="text">
+        <input type="submit" value="Get Started">
+      </form>
+    </div>
+
+    </header>
   
-  <main>
-    <section class="sec1">
+    <section class="details">
 
-      <div class="img1"></div>
+      <img class="details__illustration" src="./images/illustration-2.svg" alt="illustration">
       
-      <h1>All your files in one secure location, accessible anywhere.</h1> 
-      
-      <p>Fylo stores your most important files in one secure location. 
-      Access them wherever you need, share and collaborate with friends, 
-      family, and co-workers.</p>
-      
-      <div class="btn1">
-        <input type="text" name="email" id="email1" submit="Enviar">
-        <button>Get Started</button>
-      </div>
-      
-      <div-img2></div-img2>
-      
-      <h4>Stay productive, wherever you are</h4>
-    
-    
-      <p>Never let location be an issue when paccessing your files. Fylo has you 
-      covered for all of your file storage needs.</p>
-      
-      <p>Securely share files and folders with friends, family and colleagues for 
-        live collaboration. No email attachments required!</p>
-        
-      <p>See how Fylo works</p>
-        
-      <div class="pimg1">
-        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-        
-        <p>Kyle Burton</p>
-        <p>Founder & CEO, Huddle</p>
+      <div class="details-content">
+        <h1 class="details-content__title">Stay productive, wherever you are</h1>
+        <p class="details-content__paragraph">Never let location be an issue when paccessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p class="details-content__paragraph">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+        <a class="details-content__link" href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow"></a>
+
+        <article class="card">
+          <img class="card__quotes" src="./images/icon-quotes.svg" alt="quotes">
+          <p class="card__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          <di class="avatar-container">
+            <img class="avatar-container__image" src="./images/avatar-testimonial.jpg" alt="avatar">
+            <div>
+              <p class="avatar-container__name">Kyle Burton</p>
+              <p class="avatar-container__profile">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </article>
       </div>
         
     </section>
 
-    <section class="sec2">
-
-      <h3>Get early access today</h3>
-        
-      <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-      
-      <div class="btn2">
-        <input type="text" name="email2" submit="Enviar">
-        <button>Get Started For Free</button>
+    <section class="early-access">
+      <div>
+        <h1 class="early-access__title">Get early access today</h1>
+        <p class="early-access__description">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
       </div>
 
+      <form class="early-access__form" action="">
+        <input type="text">
+        <input type="submit" value="Get Started For Free">
+      </form>
     </section>
 
-    <section class="sec3">
+    <footer class="footer">
+      <div>
+        <img class="footer__logo" src="./images/logo white.svg" alt="logo wite">
+        <div class="footer__phone-container">
+          <img src="./images/icon-phone.svg" alt="icon phone">
+          <a href="#">Phone: +1-543-123-4567</a>
+        </div>
+        <div class="footer__email-container">
+          <img src="./images/icon-email.svg" alt="icon email">
+          <a href="">example@fylo.com</a>
+        </div>
+      </div>
+        
+      <ul class="footer__about-us">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li> 
+      </ul>
+
+      <ul class="footer__contact-us">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
       
-      <p>Phone: +1-543-123-4567</p>
-      
-      <p>example@fylo.com</p>  
-      
-      <nav class="nav2">
-        <a href="#">About Us</a>
-        <a href="#">Jobs</a>
-        <a href="#">Press</a>
-        <a href="#">Blog</a>
-      </nav>
-      
-      <nav class="nav3">
-        <a href="#">Contact Us</a>
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-      </nav>
-      
-      <div class="iconsEnd">
+      <div class="social-media-container">
         
       </div>
 
-    </section>
-      
+    </footer>
+          
     </main>
-    
+
   </body>
   </html>
